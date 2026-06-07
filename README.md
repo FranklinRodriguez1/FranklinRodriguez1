@@ -1,70 +1,80 @@
-# ⚡ Senior Software Developer | AI Engineer
+# ⚡ Franklin Rodriguez
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranklinRodriguez1&layout=compact&theme=vision-friendly-dark" alt="Top Langs" />
-</p>
+### Full Stack Developer | Next.js, TypeScript & Node.js
 
----
+## 👨‍💻 About Me
 
-### 👨‍💻 Sobre mí
-Soy un desarrollador enfocado en la creación de soluciones escalables con **Next.js** y **TypeScript**. Actualmente, exploro la intersección entre el desarrollo web y la **Inteligencia Artificial**, construyendo herramientas que validan la lógica y la veracidad de la información.
+Full Stack Developer focused on building modern web applications using Next.js, React, TypeScript, Node.js and PostgreSQL.
 
-- 🎓 Estudiante de Inteligencia Artificial  
-- 🏗️ Especialista en arquitecturas modernas con Next.js  
-- 🛡️ Desarrollador del ecosistema **Veritas** y **Riwlogic**
+I enjoy creating scalable, maintainable and user-focused solutions while applying clean code principles, API design best practices and modern development workflows.
+
+Currently expanding my expertise in backend development, application architecture and modern deployment strategies.
 
 ---
 
-### 🚀 Stack Tecnológico
+## 🚀 Tech Stack
 
-#### Frontend & Frameworks
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### Frontend
 
-#### Backend & Logic
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+* Next.js
+* React
+* TypeScript
 
-#### Tools & Workflow
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Scrum](https://img.shields.io/badge/Scrum-Methodology-blue?style=for-the-badge)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+### Backend
 
----
+* Node.js
+* REST APIs
+* JWT Authentication
 
-### 🛠️ Proyectos Destacados
+### Databases
 
-- **Veritas Intelligence Suite** → Auditoría lógica mediante IA para detectar inconsistencias técnicas  
-- **Riwlogic** → Plataforma de algoritmos con sistema de clanes competitivos  
-- **Next.js AI Integration** → Implementación avanzada del SDK de Google Generative AI  
+* PostgreSQL
+* Prisma ORM
+* Supabase
 
----
+### Tools
 
-### 🧠 Branding
-
-<p align="center">
-  <!-- SVG EMBEBIDO -->
-  TU_SVG_AQUI
-</p>
+* Git
+* GitHub
+* Vercel
+* Render
 
 ---
 
-### 📈 Mi actividad en GitHub
+## 🛠 Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FranklinRodriguez1&theme=tokyonight" alt="GitHub Streak" />
-</p>
+### 🚚 Trux
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FranklinRodriguez1&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</p>
+Logistics platform focused on fleet auditing, operational management and real-time tracking.
+
+### ⚙️ Riwlogic
+
+Projects focused on algorithms, process automation and workflow optimization.
 
 ---
 
-### 🤝 Conectemos
+## 📈 Currently Learning
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/FranklinRodriguez1)
+* NestJS
+* Docker
+* Backend Architecture
+* Advanced Next.js Patterns
+* Data Structures & Algorithms
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU_EMAIL@gmail.com)
+---
+
+## 🎯 Professional Interests
+
+* Full Stack Development
+* Backend Engineering
+* Scalable Web Applications
+* Software Architecture
+* Artificial Intelligence Integration
+
+---
+
+## 🤝 Let's Connect
+
+I'm always open to collaborating on interesting projects, learning new technologies and contributing to impactful software solutions.
+
+📫 Feel free to connect with me through LinkedIn or explore my repositories below.
