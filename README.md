@@ -17,37 +17,48 @@ Currently expanding my knowledge in NestJS, Docker, backend architecture and adv
 ## Tech Stack
 
 ### Frontend
-* Next.js
-* React
-* TypeScript
+- Next.js
+- React
+- TypeScript
 
 ### Backend
-* Node.js
-* REST APIs
-* JWT Authentication
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
 
 ### Database
-* PostgreSQL
-* Prisma ORM
-* Supabase
+- PostgreSQL
+- MongoDB
+- Prisma ORM
+- Supabase
 
-### Tools
-* Git
-* GitHub
-* Vercel
-* Render
+### Cloud & Tools
+- Azure
+- Git
+- GitHub
+- Vercel
+- Render
 
 ## Featured Projects
 
 ### Trux
 A logistics platform focused on fleet auditing, operational management and real-time tracking.
 
+### Semtex
+An autonomous AI copilot for SME financial management — securely parses accounting files, provides natural language insights, and streamlines reporting.
+
 ### Riwlogic
 Projects focused on algorithms, workflow optimization and process automation.
 
 ## Currently Learning
-* NestJS
-* Docker
-* Backend Architecture
-* Advanced Next.js Patterns
-* Data Structures & Algorithms
+- NestJS
+- Docker
+- Backend Architecture
+- Advanced Next.js Patterns
+- Data Structures & Algorithms
+
+## Let's Connect
+- LinkedIn: [linkedin.com/in/franklirodriguez](https://www.linkedin.com/in/franklirodriguez/)
+- Portfolio: [portfolio-sandyrho-3rf5robkj9.vercel.app](https://portfolio-sandyrho-3rf5robkj9.vercel.app/)
+- Email: FranklinRodriguezDev@gmail.com
