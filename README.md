@@ -95,11 +95,11 @@
 
 ## About Me
 
-Full Stack Developer focused on building modern web applications with Next.js, React, TypeScript, Node.js and PostgreSQL.
+Full Stack Developer focused on building modern web applications with Next.js, React, TypeScript, Node.js, and PostgreSQL.
 
-My main interests are backend development, scalable systems and creating software that solves real business problems. I enjoy working across the full development lifecycle, from designing user interfaces to building APIs and managing data.
+My main interests are backend development, scalable systems, and creating software that solves real business problems. I enjoy working across the full development lifecycle, from designing user interfaces to building APIs and managing data.
 
-Currently expanding my knowledge in NestJS, Docker, backend architecture and advanced Next.js patterns.
+I am currently expanding my knowledge in NestJS, Docker, backend architecture, and advanced Next.js patterns.
 
 ## Tech Stack
 
@@ -130,13 +130,13 @@ Currently expanding my knowledge in NestJS, Docker, backend architecture and adv
 ## Featured Projects
 
 ### Trux
-A logistics platform focused on fleet auditing, operational management and real-time tracking.
+A logistics platform focused on fleet auditing, operational management, and real-time tracking.
 
 ### Semtex
-An autonomous AI copilot for SME financial management — securely parses accounting files, provides natural language insights, and streamlines reporting.
+An autonomous AI copilot for SME financial management. It securely parses accounting files, provides natural language insights, and streamlines reporting.
 
 ### Riwlogic
-Projects focused on algorithms, workflow optimization and process automation.
+Projects focused on algorithms, workflow optimization, and process automation.
 
 ## Currently Learning
 - NestJS
