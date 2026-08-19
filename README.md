@@ -77,22 +77,16 @@ Currently expanding my knowledge in **NestJS, Docker, backend architecture, and 
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-### 🚛 Trux
-Logistics platform focused on fleet auditing, operational management and real-time tracking.
-
-</td>
-<td width="33%" valign="top">
-
-### 💡 Semtex
-Autonomous AI copilot for SME financial management — securely parses accounting files, provides natural language insights, and streamlines reporting.
-
-</td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### ⚙️ Riwlogic
 Projects focused on algorithms, workflow optimization and process automation.
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 Folio
+Library / catalog management system — organizes collections and streamlines lending and record-keeping.
 
 </td>
 </tr>
