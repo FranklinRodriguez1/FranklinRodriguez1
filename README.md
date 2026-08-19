@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#3178C6" stop-opacity="0.5"/>
@@ -8,9 +8,30 @@
       <feGaussianBlur stdDeviation="9"/>
     </filter>
 
-    <path id="orbit1" d="M 190,345 A 210,85 0 1,1 610,345 A 210,85 0 1,1 190,345 Z"/>
-    <path id="orbit2" d="M 190,345 A 210,85 0 1,1 610,345 A 210,85 0 1,1 190,345 Z"/>
-    <path id="orbit3" d="M 190,345 A 210,85 0 1,1 610,345 A 210,85 0 1,1 190,345 Z"/>
+    <style>
+      /* ellipse offset from center, sampled every 30deg (rx=210, ry=85) */
+      @keyframes orbitMove {
+        0%    { transform: translate(210px, 0px); }
+        8.33% { transform: translate(181.9px, 42.5px); }
+        16.67%{ transform: translate(105px, 73.6px); }
+        25%   { transform: translate(0px, 85px); }
+        33.33%{ transform: translate(-105px, 73.6px); }
+        41.67%{ transform: translate(-181.9px, 42.5px); }
+        50%   { transform: translate(-210px, 0px); }
+        58.33%{ transform: translate(-181.9px, -42.5px); }
+        66.67%{ transform: translate(-105px, -73.6px); }
+        75%   { transform: translate(0px, -85px); }
+        83.33%{ transform: translate(105px, -73.6px); }
+        91.67%{ transform: translate(181.9px, -42.5px); }
+        100%  { transform: translate(210px, 0px); }
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.55; }
+        50%      { opacity: 0.85; }
+      }
+      .electron { animation-name: orbitMove; animation-timing-function: linear; animation-iteration-count: infinite; }
+      .glow { animation: glowPulse 6s ease-in-out infinite; }
+    </style>
   </defs>
 
   <rect x="0" y="0" width="800" height="900" rx="28" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
@@ -20,68 +41,36 @@
   <text x="400" y="80" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
         font-size="12" fill="#6e7681" letter-spacing="1.5">TYPESCRIPT AT THE CORE</text>
 
-  <circle cx="400" cy="345" r="62" fill="url(#glow)" filter="url(#blur)">
-    <animate attributeName="opacity" values="0.55;0.85;0.55" dur="6s" repeatCount="indefinite"/>
-  </circle>
+  <circle class="glow" cx="400" cy="345" r="62" fill="url(#glow)" filter="url(#blur)"/>
 
   <!-- orbit 1 tilt 0deg frontend -->
   <g transform="rotate(0 400 345)">
-    <use href="#orbit1" xlink:href="#orbit1" fill="none" stroke="#61DAFB" stroke-opacity="0.16" stroke-width="1"/>
-    <circle r="5.5" fill="#61DAFB">
-      <animateMotion dur="18s" begin="0s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit1" xlink:href="#orbit1"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#61DAFB" opacity="0.85">
-      <animateMotion dur="18s" begin="-6s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit1" xlink:href="#orbit1"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#61DAFB" opacity="0.7">
-      <animateMotion dur="18s" begin="-12s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit1" xlink:href="#orbit1"/>
-      </animateMotion>
-    </circle>
+    <ellipse cx="400" cy="345" rx="210" ry="85" fill="none" stroke="#61DAFB" stroke-opacity="0.16" stroke-width="1"/>
+    <g transform="translate(400,345)">
+      <circle class="electron" r="5.5" fill="#61DAFB" style="animation-duration:18s; animation-delay:0s"/>
+      <circle class="electron" r="5.5" fill="#61DAFB" opacity="0.85" style="animation-duration:18s; animation-delay:-6s"/>
+      <circle class="electron" r="5.5" fill="#61DAFB" opacity="0.7" style="animation-duration:18s; animation-delay:-12s"/>
+    </g>
   </g>
 
   <!-- orbit 2 tilt 60deg backend -->
   <g transform="rotate(60 400 345)">
-    <use href="#orbit2" xlink:href="#orbit2" fill="none" stroke="#7c86e0" stroke-opacity="0.16" stroke-width="1"/>
-    <circle r="5.5" fill="#7c86e0">
-      <animateMotion dur="23s" begin="0s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit2" xlink:href="#orbit2"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#7c86e0" opacity="0.85">
-      <animateMotion dur="23s" begin="-7.7s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit2" xlink:href="#orbit2"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#7c86e0" opacity="0.7">
-      <animateMotion dur="23s" begin="-15.4s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit2" xlink:href="#orbit2"/>
-      </animateMotion>
-    </circle>
+    <ellipse cx="400" cy="345" rx="210" ry="85" fill="none" stroke="#7c86e0" stroke-opacity="0.16" stroke-width="1"/>
+    <g transform="translate(400,345)">
+      <circle class="electron" r="5.5" fill="#7c86e0" style="animation-duration:23s; animation-delay:0s"/>
+      <circle class="electron" r="5.5" fill="#7c86e0" opacity="0.85" style="animation-duration:23s; animation-delay:-7.7s"/>
+      <circle class="electron" r="5.5" fill="#7c86e0" opacity="0.7" style="animation-duration:23s; animation-delay:-15.4s"/>
+    </g>
   </g>
 
   <!-- orbit 3 tilt 120deg data -->
   <g transform="rotate(120 400 345)">
-    <use href="#orbit3" xlink:href="#orbit3" fill="none" stroke="#52b788" stroke-opacity="0.14" stroke-width="1"/>
-    <circle r="5.5" fill="#52b788">
-      <animateMotion dur="28s" begin="0s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit3" xlink:href="#orbit3"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#52b788" opacity="0.85">
-      <animateMotion dur="28s" begin="-9.3s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit3" xlink:href="#orbit3"/>
-      </animateMotion>
-    </circle>
-    <circle r="5.5" fill="#52b788" opacity="0.7">
-      <animateMotion dur="28s" begin="-18.6s" repeatCount="indefinite" rotate="0">
-        <mpath href="#orbit3" xlink:href="#orbit3"/>
-      </animateMotion>
-    </circle>
+    <ellipse cx="400" cy="345" rx="210" ry="85" fill="none" stroke="#52b788" stroke-opacity="0.14" stroke-width="1"/>
+    <g transform="translate(400,345)">
+      <circle class="electron" r="5.5" fill="#52b788" style="animation-duration:28s; animation-delay:0s"/>
+      <circle class="electron" r="5.5" fill="#52b788" opacity="0.85" style="animation-duration:28s; animation-delay:-9.3s"/>
+      <circle class="electron" r="5.5" fill="#52b788" opacity="0.7" style="animation-duration:28s; animation-delay:-18.6s"/>
+    </g>
   </g>
 
   <!-- nucleus: TS only -->
